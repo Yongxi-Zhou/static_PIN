@@ -1,0 +1,292 @@
+.main {
+
+	width: 981px;
+	height: 456px;
+	margin-top: 10px;
+	margin-left: 220px;
+	/*background-color: pink;*/
+}
+
+.main-l {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 722px;
+	height: 456px;
+	/*background-color: orange;*/
+}
+
+.focus-l,
+.focus-r {
+	height: 40px;
+	width: 30px;
+	background-color: rgba(0,0,0,.3);
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	font-weight: 700;
+	font-size: 16px;
+}
+.focus-r {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	margin-top: -20px;
+}
+.focus-l {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-top: -20px;
+}
+
+/*下面圆圈部分*/
+.circle {
+	position: absolute;
+	bottom: 10px;
+	left: 50px;
+}
+.circle li {
+	float: left;
+	margin: 0 2px;
+	width: 8px;
+	height: 8px;
+	border: 2px solid rgba(255,255,255,.8);
+	border-radius: 50%;
+	cursor: pointer;
+}
+.circle li:hover {
+	background-color: #fff;
+}
+
+/*右边的模块*/
+.main-r {
+	width: 251px;
+	height: 456px;
+
+	/* background-color: purple; */
+}
+
+.news {
+	height: 163px;
+	border: 1px solid #e4e4e4;
+}
+.news-hd {
+	height: 32px;
+	padding: 0 15px;
+	border-bottom: 1px dotted #ccc;
+	font-size: 14px;
+	line-height: 32px;
+}
+.news-hd a {
+	font-family: 'icomoon';
+}
+.news-bd {
+	height: 130px;
+	/*background-color: pink;*/
+	padding: 5px 0 0 15px;
+}
+.news-bd li {
+	height: 24px;
+	line-height: 24px;
+}
+.lifeservice {
+	height: 208px;
+	border: 1px solid #e4e4e4;
+	border-top: none;
+	overflow: hidden;
+}
+.lifeservice ul {
+	width: 252px;
+}
+.lifeservice li {
+	position: relative;
+	float: left;
+	width: 62px;
+	height: 70px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+/*service logo部分*/
+.lifeservice a {
+	display: block;
+	height: 100%;
+	/*清除坍塌*/
+	overflow: hidden;
+}
+.lifeservice a p {
+	text-align: center;
+	
+}
+.service-logo {
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin: 10px auto;
+	background: url(../img/icons.png) no-repeat;
+}
+.service-po1 {
+	background-position: -17px -17px;
+}
+
+.service-po2 {
+	background-position: -78px -17px;
+}
+.hot {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 13px;
+	height: 16px;
+	background: url(../img/hot.jpg) no-repeat;
+}
+.bargain {
+	margin-top: 5px;
+	height: 76px;
+	/* background-color: pink; */
+}
+
+/*recommend部分*/
+.recommend {
+	margin-top: 10px;
+	height: 163px;
+	background-color: pink;
+}
+.recom-hd {
+	overflow: hidden;
+}
+.recom-hd a {
+	display: block;
+	overflow: hidden;
+	width: 200px;
+	height: 163px;
+	background-color: #5c5251;
+}
+.recom-hd a i {
+	display: block;
+	width: 57px;
+	height: 57px;
+	margin: 33px auto 10px;
+	background: url(../img/recom.png) no-repeat;
+}
+.recom-hd a p {
+	text-align: center;
+	color: #FFF;
+}
+/*recom-bd部分*/
+.recom-bd {
+	width: 1000px;
+	height: 143px;
+	padding: 10px 0;
+	overflow: hidden;
+	background-color: #ebebeb;
+
+}
+.recom-bd ul {
+	width: 1005px;
+	/*overflow: hidden;*/
+}
+.recom-bd li {
+	width: 250px;
+	height: 143px;
+	border-right: 1px solid #ddd;
+}
+
+/*floor部分*/
+.box-hd {
+	height: 30px;
+	border-bottom: 2px solid #c81623;
+	font-size: 18px;
+	color: #c81623;
+}
+.box-hd li {
+	float: left;
+	font-size: 12px;
+	line-height: 30px;
+}
+.box-hd li a {
+	margin: 0 15px;
+}
+.box-bd li {
+	float: left;
+	overflow: hidden;
+	height: 360px;
+}
+.box-bd img {
+	transition: all 0.5s;
+}
+/*加transition*/
+/*应该给img加，不然会把盒子挤爆了*/
+/*transition前先看好margin还是padding*/
+.box-bd img:hover {
+	margin-left: 10px;
+}
+.w209 {
+	width: 209px;
+	background-color: #f9f9f9;
+}
+.w329 {
+	width: 329px;
+}
+.w219 {
+	width: 219px;
+	border-right: 1px solid #ccc;
+}
+.w220 {
+	width: 220px;
+	border-right: 1px solid #ccc;
+}
+.bd {
+	border-bottom: 1px solid #ccc;
+}
+.w209 li {
+	width: 86px;
+	height: 32px;
+	line-height: 32px;
+	margin-left: 12px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+}
+.container {
+	width: 59px;
+	padding-left: 27px;
+}
+.w209 img {
+	margin: 27px 0 0 0;
+}
+
+.shouji,
+.jiadian,
+.diannao {
+	margin-top: 30px;
+	overflow: hidden;
+}
+.diannao {
+	margin-bottom: 30px;
+}
+
+/*fixtool部分*/
+.fixtool {
+	position: fixed;
+	top: 100px;
+	left: 50%;
+	margin-left: -676px;
+	background-color: #fff;
+}
+
+.fixtool li {
+	width: 66px;
+	height: 32px;
+	/*background-color: pink;*/
+	line-height: 32px;
+	text-align: center;
+	cursor: pointer;
+	border-bottom: 1px solid #ccc;
+	transition: all 0.5s;
+}
+
+.fixtool li:hover {
+	background-color: #c81623;
+	color: #fff;
+	margin-left: 10px;
+}

@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<!-- 1.网页标签的图标icon -->
+	<link rel="shortcut icon" href="pin.ico">
+	<!-- 2.title description Keywords 三大头标签，便于搜索引擎 -->
+	<title>手机列表！</title>
+	<meta name="description" content="品优购JD.COM-专业的综合网上购物商城,销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!">
+	<meta name="Keywords" content="网上购物,网上商城,手机,笔记本,电脑,MP3,CD,VCD,DV,相机,数码,配件,手表,存储卡,品优购">
+	<!-- 3.链接css文件进来 -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/common.css">
+	<!-- 4.list的css文件 -->
+	<link rel="stylesheet" href="css/list.css">
+</head>
+<body>
+	<!-- 通用页面的头部 -->
+	<!-- 1.shortcut start -->
+	<div class="shortcut">
+		<div class="w">
+			<!-- 用回common里面写好的类 -->
+			<div class="fl">
+				<!-- 用ul写结构更清晰，类名注意，登录信息写在一个li上 -->
+				<ul>
+					<li>品优购欢迎您！</li>
+					<li>
+						<a href="#">请登录</a>
+						<a href="registrater.html" target="_blank" class="style-red">免费注册</a>
+					</li>
+				</ul>
+			</div>
+			<!-- shortcut右边的竖线和向下的箭头怎么写？？？？ -->
+			<!-- 用li加 -->
+			<div class="fr">
+				<ul>
+					<li><a href="#">我的订单</a></li>
+					<li class="spacer"></li>
+					<li>
+						<a href="#">我的品优购</a> 
+						<!-- 给字体图标加个类 -->
+						<i class="icomoon"></i>
+					</li>
+					<li class="spacer"></li>
+					<li><a href="#">品优购会员</a></li>
+					<li class="spacer"></li>
+					<li><a href="#">企业采购</a></li>
+					<li class="spacer"></li>
+					<li><a href="#">关注品优购</a> <i class="icomoon"></i></li>
+					<li class="spacer"></li>
+					<li><a href="#">客户服务</a> <i class="icomoon"></i></li>
+					<li class="spacer"></li>
+					<li ><a href="#">网站导航</a> <i class="icomoon"></i></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 1.shortcut end -->
+ 
+	<!-- 2.header start -->
+	<div class="header w">
+		<!-- header-logo部分 -->
+		<div class="logo">
+			<h1>
+				<a href="index.html" title="品优购">品优购</a>
+			</h1>
+		</div>
+		<!-- header-search部分 -->
+		<div class="search">
+			<input type="text" placeholder="语言开发" class="fl">
+			<button class="fl">搜索</button>
+		</div>
+		<!-- header hotwords部分 -->
+		<div class="hotwords">
+			<a href="#" class="style-red">优惠购首发</a>
+			<a href="#">亿元优惠</a>
+			<a href="#">9.9元团购</a>
+			<a href="#">美满99减30</a>
+			<a href="#">办公用品</a>
+			<a href="#">电脑</a>
+			<a href="#">通信</a>
+		</div>
+		<div class="sk">
+		</div>
+		<!-- header shopcar部分 -->
+		<div class="shopcar">
+			<i class="count">80</i>
+			<a href="#">
+				<span class="cart"></span> 我的购物车  <span class="you"></span>
+			</a>
+		</div>
+	</div>
+	<!-- 2.header end -->
+
+	<!-- 3.nav start -->
+	<div class="nav">
+		<div class="w">
+			<div class="sk-list fl">
+				<ul>
+					<li><a href="#">品优秒杀</a></li>
+					<li><a href="#">即将售罄</a></li>
+					<li><a href="#">超值低价</a></li>
+				</ul>
+			</div>
+			<div class="sk-con fr">
+				<ul>
+					<li><a href="#">女装</a></li>
+					<li><a href="#" class="style-red">女鞋</a></li>
+					<li><a href="#">男装</a></li>
+					<li><a href="#">男鞋</a></li>
+					<li><a href="#">母婴童装</a></li>
+					<li><a href="#">食品</a></li>
+					<li><a href="#">智能数码</a></li>
+					<li><a href="#">运动户外</a></li>
+					<li><a href="#">更多分类</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 3.nav end -->
+
+	<!-- 内容展示页 -->
+	<div class="sk-container w">
+		<div class="sk-hd">
+			<img src="upload/nvxie.jpg" alt="">
+		</div>
+		<!-- 因为没给高度，要清楚浮动 -->
+		<div class="sk-bd clearfix">
+			<ul>
+				<!-- 因为li下面还有很多层，所以要加个class -->
+				<!-- del标签可以做删除线 -->
+				<li class="sk-good ">
+					<a href="detail.html" target="_blank">
+						<img src="upload/list-good.jpg" alt="">
+						<h5 class="sk-good-title">Apple苹果iPhone 6s Plus（A1699）32G 金色 移动联通电信4G手机</h5>
+					</a>
+					<p class="sk-good-price"><span><i>¥</i>6088</span> <del>￥6988</del></p>
+					<!-- 里面的条子怎么写？用图片？ -->
+					<div class="sk_goods_progress">
+						已售<i class="style-red">87%</i>
+						<div class="bar">
+							<div class="bar-in"></div>
+						</div>
+						剩余<i class="style-red">29</i>件
+					</div>
+					<a href="detail.html" class="sk_goods_buy">立即抢购</a>
+				</li>
+				<li class="sk-good">
+					<a href="detail.html" target="_blank">
+						<img src="upload/list-good.jpg" alt="">
+						<h5 class="sk-good-title">Apple苹果iPhone 6s Plus（A1699）32G 金色 移动联通电信4G手机</h5>
+					</a>
+					<p class="sk-good-price"><span><i>¥</i>6088</span> <del>￥6988</del></p>
+					<!-- 里面的条子怎么写？用图片？ -->
+					<div class="sk_goods_progress">
+						已售<i class="style-red">87%</i>
+						<div class="bar">
+							<div class="bar-in"></div>
+						</div>
+						剩余<i class="style-red">29</i>件
+					</div>
+					<a href="detail.html" class="sk_goods_buy">立即抢购</a>
+				</li>
+				<li class="sk-good">
+					<a href="detail.html" target="_blank">
+						<img src="upload/list-good.jpg" alt="">
+						<h5 class="sk-good-title">Apple苹果iPhone 6s Plus（A1699）32G 金色 移动联通电信4G手机</h5>
+					</a>
+					<p class="sk-good-price"><span><i>¥</i>6088</span> <del>￥6988</del></p>
+					<!-- 里面的条子怎么写？用图片？ -->
+					<div class="sk_goods_progress">
+						已售<i class="style-red">87%</i>
+						<div class="bar">
+							<div class="bar-in"></div>
+						</div>
+						剩余<i class="style-red">29</i>件
+					</div>
+					<a href="detail.html" class="sk_goods_buy">立即抢购</a>
+				</li>
+				<li class="sk-good">
+					<a href="detail.html" target="_blank">
+						<img src="upload/list-good.jpg" alt="">
+						<h5 class="sk-good-title">Apple苹果iPhone 6s Plus（A1699）32G 金色 移动联通电信4G手机</h5>
+					</a>
+					<p class="sk-good-price"><span><i>¥</i>6088</span> <del>￥6988</del></p>
+					<!-- 里面的条子怎么写？用图片？ -->
+					<div class="sk_goods_progress">
+						已售<i class="style-red">87%</i>
+						<div class="bar">
+							<div class="bar-in"></div>
+						</div>
+						剩余<i class="style-red">29</i>件
+					</div>
+					<a href="detail.html" class="sk_goods_buy">立即抢购</a>
+				</li>
+				<li class="sk-good">
+					<a href="detail.html" target="_blank">
+						<img src="upload/list-good.jpg" alt="">
+						<h5 class="sk-good-title">Apple苹果iPhone 6s Plus（A1699）32G 金色 移动联通电信4G手机</h5>
+					</a>
+					<p class="sk-good-price"><span><i>¥</i>6088</span> <del>￥6988</del></p>
+					<!-- 里面的条子怎么写？用图片？ -->
+					<div class="sk_goods_progress">
+						已售<i class="style-red">87%</i>
+						<div class="bar">
+							<div class="bar-in"></div>
+						</div>
+						剩余<i class="style-red">29</i>件
+					</div>
+					<a href="detail.html" class="sk_goods_buy">立即抢购</a>
+				</li>
+				<li class="sk-good">
+					<a href="detail.html" target="_blank">
+						<img src="upload/list-good.jpg" alt="">
+						<h5 class="sk-good-title">Apple苹果iPhone 6s Plus（A1699）32G 金色 移动联通电信4G手机</h5>
+					</a>
+					<p class="sk-good-price"><span><i>¥</i>6088</span> <del>￥6988</del></p>
+					<!-- 里面的条子怎么写？用图片？ -->
+					<div class="sk_goods_progress">
+						已售<i class="style-red">87%</i>
+						<div class="bar">
+							<div class="bar-in"></div>
+						</div>
+						剩余<i class="style-red">29</i>件
+					</div>
+					<a href="detail.html" class="sk_goods_buy">立即抢购</a>
+				</li>
+				<li class="sk-good">
+					<a href="detail.html" target="_blank">
+						<img src="upload/list-good.jpg" alt="">
+						<h5 class="sk-good-title">Apple苹果iPhone 6s Plus（A1699）32G 金色 移动联通电信4G手机</h5>
+					</a>
+					<p class="sk-good-price"><span><i>¥</i>6088</span> <del>￥6988</del></p>
+					<!-- 里面的条子怎么写？用图片？ -->
+					<div class="sk_goods_progress">
+						已售<i class="style-red">87%</i>
+						<div class="bar">
+							<div class="bar-in"></div>
+						</div>
+						剩余<i class="style-red">29</i>件
+					</div>
+					<a href="detail.html" class="sk_goods_buy">立即抢购</a>
+				</li>
+				<li class="sk-good">
+					<a href="detail.html" target="_blank">
+						<img src="upload/list-good.jpg" alt="">
+						<h5 class="sk-good-title">Apple苹果iPhone 6s Plus（A1699）32G 金色 移动联通电信4G手机</h5>
+					</a>
+					<p class="sk-good-price"><span><i>¥</i>6088</span> <del>￥6988</del></p>
+					<!-- 里面的条子怎么写？用图片？ -->
+					<div class="sk_goods_progress">
+						已售<i class="style-red">87%</i>
+						<div class="bar">
+							<div class="bar-in"></div>
+						</div>
+						剩余<i class="style-red">29</i>件
+					</div>
+					<a href="detail.html" class="sk_goods_buy">立即抢购</a>
+				</li>
+				<li class="sk-good">
+					<a href="detail.html" target="_blank">
+						<img src="upload/list-good.jpg" alt="">
+						<h5 class="sk-good-title">Apple苹果iPhone 6s Plus（A1699）32G 金色 移动联通电信4G手机</h5>
+					</a>
+					<p class="sk-good-price"><span><i>¥</i>6088</span> <del>￥6988</del></p>
+					<!-- 里面的条子怎么写？用图片？ -->
+					<div class="sk_goods_progress">
+						已售<i class="style-red">87%</i>
+						<div class="bar">
+							<div class="bar-in"></div>
+						</div>
+						剩余<i class="style-red">29</i>件
+					</div>
+					<a href="detail.html" class="sk_goods_buy">立即抢购</a>
+				</li>
+				<li class="sk-good">
+					<a href="detail.html" target="_blank">
+						<img src="upload/list-good.jpg" alt="">
+						<h5 class="sk-good-title">Apple苹果iPhone 6s Plus（A1699）32G 金色 移动联通电信4G手机</h5>
+					</a>
+					<p class="sk-good-price"><span><i>¥</i>6088</span> <del>￥6988</del></p>
+					<!-- 里面的条子怎么写？用图片？ -->
+					<div class="sk_goods_progress">
+						已售<i class="style-red">87%</i>
+						<div class="bar">
+							<div class="bar-in"></div>
+						</div>
+						剩余<i class="style-red">29</i>件
+					</div>
+					<a href="detail.html" class="sk_goods_buy">立即抢购</a>
+				</li>
+				<li class="sk-good">
+					<a href="detail.html" target="_blank">
+						<img src="upload/list-good.jpg" alt="">
+						<h5 class="sk-good-title">Apple苹果iPhone 6s Plus（A1699）32G 金色 移动联通电信4G手机</h5>
+					</a>
+					<p class="sk-good-price"><span><i>¥</i>6088</span> <del>￥6988</del></p>
+					<!-- 里面的条子怎么写？用图片？ -->
+					<div class="sk_goods_progress">
+						已售<i class="style-red">87%</i>
+						<div class="bar">
+							<div class="bar-in"></div>
+						</div>
+						剩余<i class="style-red">29</i>件
+					</div>
+					<a href="detail.html" class="sk_goods_buy">立即抢购</a>
+				</li>
+				<li class="sk-good">
+					<a href="detail.html" target="_blank">
+						<img src="upload/list-good.jpg" alt="">
+						<h5 class="sk-good-title">Apple苹果iPhone 6s Plus（A1699）32G 金色 移动联通电信4G手机</h5>
+					</a>
+					<p class="sk-good-price"><span><i>¥</i>6088</span> <del>￥6988</del></p>
+					<!-- 里面的条子怎么写？用图片？ -->
+					<div class="sk_goods_progress">
+						已售<i class="style-red">87%</i>
+						<div class="bar">
+							<div class="bar-in"></div>
+						</div>
+						剩余<i class="style-red">29</i>件
+					</div>
+					<a href="detail.html" class="sk_goods_buy">立即抢购</a>
+				</li>
+				
+			</ul>
+		</div>
+		<div class="page">
+			<span class="page-num">
+				<a href="#" class="page-pre">&lt;&lt;上一页</a>
+				<a href="#">1</a>
+				<a href="#">2</a>
+				<a href="#" class="cur">3</a>
+				<a href="#">4</a>
+				<a href="#">5</a>
+				<a href="#">6</a>
+				<a href="#" class="dotted">...</a>
+				<a href="#" class="page-next">下一页 &gt;&gt;</a>
+			</span>
+			<span class="page-skip">
+				共10页 到第
+				<input type="text">
+				页
+				<button>确定</button>
+			</span>
+		</div>
+	</div>
+
+
+
+	<!-- footer部分 -->
+	<!-- 服务里面的字怎么写结构？？？？ -->
+	<!-- 两行的文字，第一行用block，第二行用p -->
+	<!-- 二维码用什么包住？？ -->
+	<!-- 用dd dt dd包住，因为结构一样的 -->
+	<div class="footer">
+		<div class="w">
+			<div class="mod_service">
+				<ul>
+					<li>
+						<i class="service_com service_icon1"></i>
+						<div class="service_t1">
+							<h5>正品保障</h5>
+							<p>正品保障，提供发票</p>
+						</div>
+					</li>
+					<li>
+						<i class="service_com service_icon2"></i>
+						<div class="service_t1">
+							<h5>极速物流</h5>
+							<p>急速物流，急速送达</p>
+						</div>
+					</li>
+					<li>
+						<i class="service_com service_icon3"></i>
+						<div class="service_t1">
+							<h5>无忧售后</h5>
+							<p>7天无理由退换货</p>
+						</div>
+					</li>
+					<li>
+						<i class="service_com service_icon4"></i>
+						<div class="service_t1">
+							<h5>特色服务</h5>
+							<p>私人定制家电套餐</p>
+						</div>
+					</li>
+					<li>
+						<i class="service_com service_icon5"></i>
+						<div class="service_t1">
+							<h5>帮助中心</h5>
+							<p>您的购物指南</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="mod_help">
+				<dl>
+					<dt>购物指南</dt>
+					<dd>购物流程</dd>
+					<dd>会员介绍</dd>
+					<dd>生活旅行/团购</dd>
+					<dd>常见问题</dd>
+					<dd>大家电</dd>
+					<dd>联系客服</dd>
+				</dl>
+
+				<dl>
+					<dt>配送放松</dt>
+					<dd>上门自提</dd>
+					<dd>211限时达</dd>
+					<dd>配送服务查询</dd>
+					<dd>配送费收取标准</dd>
+					<dd>海外配送</dd>
+				</dl>
+				<dl>
+					<dt>支付方式</dt>
+					<dd>购物流程</dd>
+					<dd>会员介绍</dd>
+					<dd>生活旅行/团购</dd>
+					<dd>常见问题</dd>
+					<dd>大家电</dd>
+				</dl>
+				<dl>
+					<dt>售后服务</dt>
+					<dd>购物流程</dd>
+					<dd>会员介绍</dd>
+					<dd>生活旅行/团购</dd>
+					<dd>常见问题</dd>
+					<dd>大家电</dd>
+				</dl>
+				<dl>
+					<dt>特色服务</dt>
+					<dd>购物流程</dd>
+					<dd>会员介绍</dd>
+					<dd>生活旅行/团购</dd>
+					<dd>常见问题</dd>
+					<dd>大家电</dd>
+				</dl>
+				<dl>
+					<dt class="help_t">帮助中心</dt>
+					<dd>
+						<img src="upload/qrcode.jpg" alt="" class="qrcode">
+						<p class="help_t">品优购客户端</p>
+					</dd>
+				</dl>
+			</div>
+			<div class="mod_copyright">
+				<p>关于我们  |  联系我们  |  联系客服  |  商家入驻  |  营销中心  |  手机品优购  |  友情链接  |  销售联盟  |  品优购社区  |  品优购公益  |  English Site  |  Contact U</p>
+				<p class="cr-bottom">地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn <br>
+				京ICP备08001421号京公网安备110108007702</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

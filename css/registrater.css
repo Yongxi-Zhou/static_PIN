@@ -1,0 +1,133 @@
+.w {
+	width: 1200px;
+	margin: auto;
+}
+/*header部分*/
+.header {
+	height: 82px;
+	border-bottom: 2px solid #b1191a;
+}
+.header img {
+	margin-top: 15px;
+}
+/*registerarea部分*/
+.registerarea {
+	margin-top: 20px;
+	height: 520px;
+	border: 1px solid #ccc;
+}
+.registerarea h3 {
+	padding: 0 10px;
+	height: 40px;
+	background-color: #ececec;
+	border-bottom: 1px solid #ccc;
+	font-size: 18px;
+	line-height: 40px;
+	font-weight: 400;
+}
+.registerarea h3 span {
+	float: right;
+	font-size: 14px;
+}
+.registerarea h3 a {
+	color: red;
+}
+/*注册的表格*/
+.reg-form {
+	width: 600px;
+	height: 420px;
+	/*background-color: pink;*/	
+	margin: 50px auto 0;
+}
+.reg-form li {
+	margin-top: 20px;
+}
+.reg-form label {
+	display: inline-block;
+	width: 100px;
+	height: 36px;
+	text-align: right;
+	line-height: 36px;
+}
+.reg-form input {
+	width: 228px;
+	height: 34px;
+	border: 1px solid #ccc;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+.reg-form .error,
+.reg-form .success {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+.reg-form .success {
+	background-image: url(../img/success.png);
+}
+.reg-form .error {
+	background-image: url(../img/error.png);
+}
+.reg-form .mistake {
+	color: #df3033;
+}
+.reg-form .correct {
+	color: #40b93f;
+}
+.reg-form .safe {
+	margin-left: 180px;
+	margin-top: 10px;
+}
+.weak,
+.mid,
+.str {
+	display: inline-block;
+	width: 34px;
+	height: 13px;
+	background-color: #de1111;
+	text-align: center;
+	line-height: 13px;
+	color: #fff;
+}
+.weak {
+	margin-left: 10px;
+}
+.mid {
+	background-color: #40b83f;
+}
+.str {
+	background-color: #f79100;
+}
+.reg-form .verify {
+	margin-left: 130px;
+	width: 14px;
+	height: 13px;
+	border: 1px solid #ccc;
+	background-color: #f2f2f2;
+	vertical-align: middle;
+}
+.reg-form a {
+	color: #1ba1e6;
+}
+.reg-form .finish {
+	width: 200px;
+	height: 34px;
+	margin-top: 50px;
+	margin-left: 130px;
+	background-color: #c81623;
+	color: #fff;
+	cursor: pointer;
+}
+
+/*footer部分*/
+.footer {
+	margin-top: 20px;
+	text-align: center;
+	
+}
+.adr {
+	margin-top: 15px;
+	line-height: 21px;
+}

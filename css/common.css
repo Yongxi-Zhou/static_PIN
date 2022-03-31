@@ -1,0 +1,324 @@
+/*公共样式*/
+/*浮动*/
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+/*版心*/
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+/*shortcut部分*/
+.shortcut {
+	height: 31px;
+	background-color: #f1f1f1;
+	line-height: 31px;
+}
+
+.spacer {
+	width: 1px;
+	height: 12px;
+	background-color: #666;
+	margin: 8px 12px 0;
+}
+.style-red {
+	color: #c81623;
+}
+.shortcut li {
+	float: left;
+}
+/*添加字体图标*/
+@font-face {
+	font-family: 'icomoon';
+	/*路径问题*/
+	src:  url('../fonts/icomoon.eot?7kkyc2');
+	src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+    url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+    url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.fr .icomoon {
+	font-family: 'icomoon';
+	font-size: 16px;
+	/*行高小于高,字体偏上*/
+	/*因为i是行内元素,不能写上下margin*/
+	line-height: 26px;
+}
+
+/*header部分*/
+.header {
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 106px;
+}
+/*logo部分*/
+.logo {
+	position: absolute;
+	top: 27px;
+	left: 0;
+}
+.header .logo a {
+	display: inline-block;
+	overflow: hidden;
+	width: 219px;
+	height: 55px;
+	background-image: url(../img/py-icon.png);
+	text-indent: -999px;
+}
+/*背景图片显示不了？？？？*/
+/*用的是css的文件路径，不是html的文件路径！！！！*/
+
+/*search部分*/
+.search {
+	position: absolute;
+	top: 27px;
+	left: 348px;
+	width: 540px;
+	height: 35px;
+	background-color: orange;
+}
+
+.search input {
+	padding-left: 10px;
+	width: 446px;
+	height: 32px;
+	border: 2px solid #b1191a;
+}
+
+.search button {
+	width: 80px;
+	height: 36px;
+	background-color: #b1191a;
+	border: none;
+	color: #fff;
+}
+/*hotword部分*/
+.hotwords {
+	position: absolute;
+	top: 70px;
+	left: 348px;
+}
+/*行内元素不用加宽高*/
+
+.hotwords a {
+	margin: 0 12px;
+}
+
+/*shopcar部分*/
+.shopcar {
+	position: absolute;
+	top: 27px;
+	right: 64px;
+	width: 140px;
+	height: 35px;
+	background-color: #f7f7f7;
+	border: 1px solid #dfdfdf;
+}
+
+.cart {
+	font-family: 'icomoon';
+	color: red;
+}
+
+.you {
+	font-family: 'icomoon';
+}
+
+/*text-align: center;要加在div中*/
+.shopcar {
+	text-align: center;
+	line-height: 35px;
+}
+
+.count {
+	position: absolute;
+	top: -5px;
+	left: 100px;
+	padding: 0 3px;
+	/*width: 14px;*/
+	/*这里不能给宽度，因为是数字撑开盒子*/
+	height: 14px;
+	/*这里要给行高，不然会继承上面的35px*/
+	line-height: 14px;
+	background-color: #e60012;
+	color: #fff;
+	border-radius: 7px 7px 7px 0;
+	font-size: 12px;
+}
+
+/*nav部分*/
+.nav {
+	height: 45px;
+	border-bottom: 2px solid #b1191a;
+}
+.nav .dt {
+	width: 210px;
+	height: 45px;
+	background-color: #b1191a;
+	text-align: center;
+	line-height: 45px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.nav .dd {
+	width: 210px;
+	height: 465px;
+	background-color: #c81623;
+	margin-top: 2px;
+}
+
+.nav .dd li {
+	height: 31px;
+	padding: 0 10px;
+	color: #fff;
+	margin-left: 1px;
+	transition: all 0.5s;
+}
+
+.nav .dd a {
+	line-height: 31px;
+	font-size: 14px;
+	color: #fff;
+}
+
+.nav .dd .you {
+	color: #fff;
+	line-height: 31px;
+	font-size: 16px;
+	/*font-weight: 700;*/
+}
+.nav .dd li:hover {
+	background-color: #fff;
+	color: #c81623;
+	padding: 0 20px;
+}
+.nav .dd li:hover a {
+	color: #c81623;
+}
+
+/*navitems*/
+.navitems {
+	margin-left: 10px;
+	height: 45px;
+	/*background-color: orange;*/
+}
+.navitems li a {
+	line-height: 45px;
+	padding: 0 25px;
+	color: #333;
+	font-size: 16px;
+}
+.navitems li a:hover {
+	color: #c81623;
+}
+
+/*footer部分*/
+.footer {
+	/*padding-top: 30px;*/
+	height: 416px;
+	background-color: #f5f5f5;
+}
+
+.mod_service {
+	height: 110px;
+	/*background-color: orange;*/
+	border-bottom: 1px solid #ccc;
+}
+
+.mod_service li {
+	float: left;
+	margin-top: 30px;
+	padding-left: 36px;
+	width: 204px;
+	height: 79px;
+	/*background-color: pink;*/
+}
+
+/*service文字部分*/
+.service_t1 {
+	float: left;
+	margin-left: 5px;
+}
+.service_t1 h5 {
+	margin: 5px 0;
+}
+
+/*icon部分*/
+.service_com {
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+
+.service_icon1 {
+	/*浮动的对象可以直接加宽高*/
+	background: url(../img/icons.png) -253px -3px no-repeat;
+}
+
+.service_icon2 {
+	/*浮动的对象可以直接加宽高*/
+	background: url(../img/icons.png) -255px -54px no-repeat;
+}
+.service_icon3 {
+	/*浮动的对象可以直接加宽高*/
+	background: url(../img/icons.png) -256px -106px no-repeat;
+}
+.service_icon4 {
+	/*浮动的对象可以直接加宽高*/
+	background: url(../img/icons.png) -258px -157px no-repeat;
+}
+.service_icon5 {
+	/*浮动的对象可以直接加宽高*/
+	background: url(../img/icons.png) -256px -208px no-repeat;
+}
+
+/*service help部分*/
+.mod_help {
+	height: 189px;
+	border-bottom: 1px solid #ccc;
+}
+.mod_help dl {
+	float: left;
+	width: 150px;
+	/*background-color: orange;*/
+	padding-left: 50px;
+	padding-top: 20px;
+}
+
+.mod_help dl dt {
+	margin-bottom: 10px;
+	font-size: 16px;
+	color: #333;
+}
+
+.mod_help dl dd {
+	color: #666;
+	line-height: 21px;
+}
+.help_t {
+	padding-left: 10px;
+
+}
+.qrcode {
+	margin-bottom: 7px;
+}
+/*mod_copyright部分*/
+.mod_copyright {
+	height: 95px;
+	padding-top: 20px;
+	/*background-color: orange;*/
+	text-align: center;
+}
+.cr-bottom {
+	margin-top: 15px;
+	line-height: 20px;
+}

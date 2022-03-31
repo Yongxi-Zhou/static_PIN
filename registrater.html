@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- 注册页面属于私密信息，不用加title description keywords -->
+	<title>注册页面</title>
+	<!-- 1.网页标签的图标icon -->
+	<link rel="shortcut icon" href="pin.ico">
+
+	<!-- 3.链接css文件进来 -->
+	<link rel="stylesheet" href="css/base.css">
+	<!-- 4.registrater的css文件 -->
+	<link rel="stylesheet" href="css/registrater.css">
+</head>
+<body>
+	<div class="w">
+		<!-- header部分 -->
+		<div class="header">
+			<div class="logo">
+				<a href="index.html">
+					<img src="img/py-icon.png" alt="">
+				</a>
+			</div>
+		</div>
+		<!-- registerarea部分 -->
+		<div class="registerarea">
+			<h3>注册新用户
+				<span>我有账号，去<a href="#">登陆</a></span>
+			</h3>
+			<div class="reg-form">
+				<!-- 表格的写法 -->
+				<form action="#">
+					<ul>
+						<li>
+							<label for="phone">手机号：</label>
+							<input type="text" name="phone">
+							<i class="error"></i>
+							<span class="mistake">手机号码格式不正确，请重新输入</span>
+						</li>
+						<li>
+							<label for="message">短信验证码：</label>
+							<input type="text" name="message">
+						</li>
+						<li>
+							<label for="password">登陆密码：</label>
+							<input type="password" name="password">
+							<i class="success"></i>
+							<span class="correct">密码正确</span>
+						</li>
+						<li class="safe">
+							安全程度
+							<em class="weak">弱</em>
+							<em class="mid">中</em>
+							<em class="str">强</em>
+						</li>
+						<li>
+							<label for="password2">确定密码：</label>
+							<input type="password" name="password2">
+							<i class="error"></i>
+							<span class="mistake">密码不一致，请重新输入</span>
+						</li>
+						<li class="confirm">
+							<input type="checkbox" class="verify">
+							<span>同意协议并注册<a href="#">《知果果用户协议》</a></span>
+						</li>
+						<input type="submit" value="完成注册" class="finish">
+					</ul>
+				</form>
+			</div>
+		</div>
+		<!-- footer部分 -->
+		<div class="footer">
+			<p>关于我们  |  联系我们  |  联系客服  |  商家入驻  |  营销中心  |  手机品优购  |  友情链接  |  销售联盟  |  品优购社区  |  品优购公益  |  English Site  |  Contact U</p>
+			<p class="adr">地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn <br>
+京ICP备08001421号京公网安备110108007702
+</p>
+		</div>
+	</div>
+</body>
+</html>
